@@ -1,0 +1,36 @@
+brew bundle --file=- <<EOF
+cask 'alfred'
+cask 'skype'
+cask 'slack'
+cask 'dropbox'
+cask '1password'
+cask 'flux'
+cask 'keyboard-maestro'
+cask 'superduper'
+cask 'istat-menus'
+cask 'viscosity'
+brew 'switchaudio-osx'
+cask 'the-unarchiver'
+
+cask 'vlc'
+cask 'mplayerx'
+cask 'plex-media-server'
+cask 'plex-media-player'
+
+cask 'textmate'
+cask 'sublime-text'
+cask 'atom'
+cask 'jetbrains-toolbox'
+
+cask 'font-inconsolata'
+cask 'font-source-code-pro'
+cask 'font-anonymous-pro'
+cask 'font-open-sans'
+cask 'font-roboto'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+EOF
+
+fancy_echo 'Cleaning up old Homebrew formulae'
+brew cleanup
+
