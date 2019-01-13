@@ -13,3 +13,12 @@ Install
 curl -s https://raw.githubusercontent.com/tomichj/laptop-extras/master/laptop.local > ~/.laptop.local
 ```
 
+License
+-------
+© 2019 Justin Tomich
+
+It is free software, 
+and may be redistributed under the terms specified in the [LICENSE] file.
+
+[LICENSE]: LICENSE
+
